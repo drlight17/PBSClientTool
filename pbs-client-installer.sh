@@ -685,7 +685,7 @@ install_pbs_client() {
         debian)
             install_debian
             ;;
-        arch|archlinux)
+        arch|archlinux|cachyos)
             install_arch
             ;;
         *)
